@@ -1,0 +1,41 @@
+package com.example.demo;
+public class HinhTron {
+    private double x;
+    private double y;
+    private double z;
+    
+    public HinhTron(double x, double y, double z) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+    public HinhTron() {
+    }
+    public double getX() {
+        return x;
+    }
+    public void setX(double x) {
+        this.x = x;
+    }
+    public double getY() {
+        return y;
+    }
+    public void setY(double y) {
+        this.y = y;
+    }
+    public double getZ() {
+        return z;
+    }
+    public void setZ(double z) {
+        this.z = z;
+    }
+    @Override
+    public String toString() {
+        return "HinhTron [x=" + x + ", y=" + y + ", z=" + z + "]";
+    }
+    double dienTich(){
+        return Math.PI*x*x;
+    }
+    
+    
+}
